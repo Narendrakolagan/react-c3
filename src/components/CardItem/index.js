@@ -5,11 +5,13 @@ const CardItem = props => {
   const {id, title, description, imgUrl, className} = cardList
 
   return (
-    <li className="{className} card ">
-      <h1>{title}</h1>
-      <p>{description}</p>
+    <li className={className}>
+      <div className="textContainer">
+        <h1 className="heading">{title}</h1>
+        <p className="paragraph">{description}</p>
+      </div>
       <div className="img-container">
-        <img src={imgUrl} className="img" alt="avatar" />
+        <img src={imgUrl} className="img" alt={title} />
       </div>
     </li>
   )

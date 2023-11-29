@@ -41,12 +41,12 @@ const App = () => (
   <div className="bg-container">
     <h1 className="main-heading">Learn 4.0 Technologies</h1>
     <p className="paragraph">
-      Get Trained by of and companies like amazon,microsoft,intel,
-      etc..,Involved in the product Department.
+      Get trained by alumni of IITs and top companies of and companies like
+      Amazon,Microsoft,Intel, etc..,Involved in the product Department.
     </p>
-    <ul>
+    <ul className="card-container">
       {cardsList.map(eachItem => (
-        <CardItem cardList={eachItem} />
+        <CardItem cardList={eachItem} key={eachItem.id} />
       ))}
     </ul>
   </div>

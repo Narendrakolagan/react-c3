@@ -1,23 +1,48 @@
 .card-1 {
   border-top: 5px solid #ff4f64;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  background-color: white;
 }
 
 .card-2 {
   border-top: 5px solid #00a8e7;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  background-color: white;
 }
 
 .card-3 {
   border-top: 5px solid #44c4a1;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  background-color: white;
 }
 
 .card-4 {
   border-top: 5px solid #fcc200;
-}
-.card {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   height: 150px;
   width: 200px;
   background-color: white;
-  border-radius: 20px;
+}
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  background-color: white;
 }
 .img {
   height: 50px;
@@ -27,4 +52,13 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
+}
+.textContainer {
+  margin-left: 20px;
+}
+.heading {
+  font-size: 15px;
+}
+.paragraph {
+  font-size: 10px;
 }
